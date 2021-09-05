@@ -15,6 +15,7 @@
 		528118A026E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5281189E26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld */; };
 		528118AB26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528118AA26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__Tests.swift */; };
 		528118B626E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528118B526E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift */; };
+		E38541FC26E4498100B04937 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38541FB26E4498100B04937 /* NewUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		528118B126E4135B00ECA7F4 /* MillionDollarApp(hopefully(maybe))UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MillionDollarApp(hopefully(maybe))UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528118B526E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionDollarApp_hopefully_maybe__UITests.swift; sourceTree = "<group>"; };
 		528118B726E4135B00ECA7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38541FB26E4498100B04937 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5281189326E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift */,
 				5281189526E4135A00ECA7F4 /* ContentView.swift */,
+				E38541FB26E4498100B04937 /* NewUserView.swift */,
 				5281189726E4135B00ECA7F4 /* Assets.xcassets */,
 				5281189C26E4135B00ECA7F4 /* Persistence.swift */,
 				528118A126E4135B00ECA7F4 /* Info.plist */,
@@ -267,6 +270,7 @@
 			files = (
 				528118A026E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld in Sources */,
 				5281189D26E4135B00ECA7F4 /* Persistence.swift in Sources */,
+				E38541FC26E4498100B04937 /* NewUserView.swift in Sources */,
 				5281189626E4135A00ECA7F4 /* ContentView.swift in Sources */,
 				5281189426E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift in Sources */,
 			);

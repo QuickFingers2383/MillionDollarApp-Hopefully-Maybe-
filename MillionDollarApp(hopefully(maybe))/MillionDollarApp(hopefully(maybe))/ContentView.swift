@@ -8,6 +8,7 @@
 import SwiftUI
 import CoreData
 
+
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
 
@@ -15,9 +16,14 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-
+    
+    @State var newUser = true
+    
     var body: some View {
         NavigationView {
+            if newUser {
+                NewUserView()
+            }
             List {
                 ForEach(items) { item in
                     Text("Item at \(item.timestamp!, formatter: itemFormatter)")
