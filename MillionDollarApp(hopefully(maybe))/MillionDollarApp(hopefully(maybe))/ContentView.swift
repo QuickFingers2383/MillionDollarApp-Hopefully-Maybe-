@@ -32,7 +32,7 @@ struct ContentView: View {
             .accentColor(Color("accent"))
             .background(Color("accent"))
             .navigationViewStyle(StackNavigationViewStyle())
-            .navigationBarTitle("App")
+            .navigationBarTitle("Berri")
             .navigationBarHidden(false)
             .toolbar {
                 #if os(iOS)
@@ -49,6 +49,7 @@ struct ContentView: View {
                 NewUserView()
                 Button("Dismiss",
                        action: { newUser.toggle() })
+                    
             }
         }
     }
