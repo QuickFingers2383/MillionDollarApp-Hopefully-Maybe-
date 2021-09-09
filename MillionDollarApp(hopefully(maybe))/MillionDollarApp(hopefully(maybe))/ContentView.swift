@@ -17,13 +17,11 @@ struct ContentView: View {
         animation: .default)
     private var items: FetchedResults<Item>
     
-    @State var newUser = true
+    @State private var newUser = true
+    @State var didDismiss = false
     
     var body: some View {
         NavigationView {
-            if newUser {
-                NewUserView()
-            }
             List {
                 ForEach(items) { item in
                     Text("Item at \(item.timestamp!, formatter: itemFormatter)")
@@ -44,6 +42,13 @@ struct ContentView: View {
                 Button(action: addItem) {
                     Label("Add Item", systemImage: "plus")
                 }
+            }
+        }
+        .sheet(isPresented: $newUser) {
+            VStack {
+                NewUserView()
+                Button("Dismiss",
+                       action: { newUser.toggle() })
             }
         }
     }
