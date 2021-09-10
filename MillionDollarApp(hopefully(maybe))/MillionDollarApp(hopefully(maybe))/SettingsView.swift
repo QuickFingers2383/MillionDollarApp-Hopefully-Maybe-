@@ -13,6 +13,7 @@ struct SettingsView: View {
     @State private var account = false
     @State private var signOut = false
     
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -26,5 +27,12 @@ struct SettingsView: View {
                 })
             }
         }
+    }
+}
+
+
+struct SettingsView_Previews: PreviewProvider {
+    static var previews: some View {
+        SettingsView()
     }
 }

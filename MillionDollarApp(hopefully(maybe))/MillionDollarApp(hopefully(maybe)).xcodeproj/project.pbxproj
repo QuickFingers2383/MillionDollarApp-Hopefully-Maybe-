@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		52268AE526EACFA1006121F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52268AE426EACFA1006121F5 /* Main.storyboard */; };
-		52268AE726EAD279006121F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52268AE626EAD279006121F5 /* SettingsView.swift */; };
 		5281189426E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5281189326E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift */; };
 		5281189626E4135A00ECA7F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5281189526E4135A00ECA7F4 /* ContentView.swift */; };
 		5281189826E4135B00ECA7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5281189726E4135B00ECA7F4 /* Assets.xcassets */; };
@@ -17,6 +16,7 @@
 		528118A026E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5281189E26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld */; };
 		528118AB26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528118AA26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__Tests.swift */; };
 		528118B626E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528118B526E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift */; };
+		E349FB3426EADCEA00E4C54C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349FB3326EADCEA00E4C54C /* SettingsView.swift */; };
 		E38541FC26E4498100B04937 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38541FB26E4498100B04937 /* NewUserView.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +40,6 @@
 /* Begin PBXFileReference section */
 		52268ADF26EAC5C1006121F5 /* swift-composable-architecture copy */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "swift-composable-architecture copy"; path = "../../../Library/Developer/Xcode/DerivedData/FinalProject-ghxvtceygxpkvxgvsvvfczwpulhr/SourcePackages/checkouts/swift-composable-architecture copy"; sourceTree = "<group>"; };
 		52268AE426EACFA1006121F5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		52268AE626EAD279006121F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5281189026E4135A00ECA7F4 /* MillionDollarApp(hopefully(maybe)).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MillionDollarApp(hopefully(maybe)).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5281189326E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionDollarApp_hopefully_maybe__App.swift; sourceTree = "<group>"; };
 		5281189526E4135A00ECA7F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		528118B126E4135B00ECA7F4 /* MillionDollarApp(hopefully(maybe))UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MillionDollarApp(hopefully(maybe))UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		528118B526E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionDollarApp_hopefully_maybe__UITests.swift; sourceTree = "<group>"; };
 		528118B726E4135B00ECA7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E349FB3326EADCEA00E4C54C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E38541FB26E4498100B04937 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,7 +110,7 @@
 				5281189326E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift */,
 				5281189526E4135A00ECA7F4 /* ContentView.swift */,
 				E38541FB26E4498100B04937 /* NewUserView.swift */,
-				52268AE626EAD279006121F5 /* SettingsView.swift */,
+				E349FB3326EADCEA00E4C54C /* SettingsView.swift */,
 				5281189726E4135B00ECA7F4 /* Assets.xcassets */,
 				5281189C26E4135B00ECA7F4 /* Persistence.swift */,
 				528118A126E4135B00ECA7F4 /* Info.plist */,
@@ -280,7 +280,7 @@
 				528118A026E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld in Sources */,
 				5281189D26E4135B00ECA7F4 /* Persistence.swift in Sources */,
 				E38541FC26E4498100B04937 /* NewUserView.swift in Sources */,
-				52268AE726EAD279006121F5 /* SettingsView.swift in Sources */,
+				E349FB3426EADCEA00E4C54C /* SettingsView.swift in Sources */,
 				5281189626E4135A00ECA7F4 /* ContentView.swift in Sources */,
 				5281189426E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift in Sources */,
 			);
