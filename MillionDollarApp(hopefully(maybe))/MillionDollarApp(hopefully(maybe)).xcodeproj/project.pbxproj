@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52268AE526EACFA1006121F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52268AE426EACFA1006121F5 /* Main.storyboard */; };
+		52268AE726EAD279006121F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52268AE626EAD279006121F5 /* SettingsView.swift */; };
 		5281189426E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5281189326E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift */; };
 		5281189626E4135A00ECA7F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5281189526E4135A00ECA7F4 /* ContentView.swift */; };
 		5281189826E4135B00ECA7F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5281189726E4135B00ECA7F4 /* Assets.xcassets */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52268ADF26EAC5C1006121F5 /* swift-composable-architecture copy */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "swift-composable-architecture copy"; path = "../../../Library/Developer/Xcode/DerivedData/FinalProject-ghxvtceygxpkvxgvsvvfczwpulhr/SourcePackages/checkouts/swift-composable-architecture copy"; sourceTree = "<group>"; };
+		52268AE426EACFA1006121F5 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		52268AE626EAD279006121F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		5281189026E4135A00ECA7F4 /* MillionDollarApp(hopefully(maybe)).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MillionDollarApp(hopefully(maybe)).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5281189326E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionDollarApp_hopefully_maybe__App.swift; sourceTree = "<group>"; };
 		5281189526E4135A00ECA7F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +89,7 @@
 				5281189226E4135A00ECA7F4 /* MillionDollarApp(hopefully(maybe)) */,
 				528118A926E4135B00ECA7F4 /* MillionDollarApp(hopefully(maybe))Tests */,
 				528118B426E4135B00ECA7F4 /* MillionDollarApp(hopefully(maybe))UITests */,
+				52268ADF26EAC5C1006121F5 /* swift-composable-architecture copy */,
 				5281189126E4135A00ECA7F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,11 +110,13 @@
 				5281189326E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift */,
 				5281189526E4135A00ECA7F4 /* ContentView.swift */,
 				E38541FB26E4498100B04937 /* NewUserView.swift */,
+				52268AE626EAD279006121F5 /* SettingsView.swift */,
 				5281189726E4135B00ECA7F4 /* Assets.xcassets */,
 				5281189C26E4135B00ECA7F4 /* Persistence.swift */,
 				528118A126E4135B00ECA7F4 /* Info.plist */,
 				5281189E26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld */,
 				5281189926E4135B00ECA7F4 /* Preview Content */,
+				52268AE426EACFA1006121F5 /* Main.storyboard */,
 			);
 			path = "MillionDollarApp(hopefully(maybe))";
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52268AE526EACFA1006121F5 /* Main.storyboard in Resources */,
 				5281189B26E4135B00ECA7F4 /* Preview Assets.xcassets in Resources */,
 				5281189826E4135B00ECA7F4 /* Assets.xcassets in Resources */,
 			);
@@ -271,6 +280,7 @@
 				528118A026E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld in Sources */,
 				5281189D26E4135B00ECA7F4 /* Persistence.swift in Sources */,
 				E38541FC26E4498100B04937 /* NewUserView.swift in Sources */,
+				52268AE726EAD279006121F5 /* SettingsView.swift in Sources */,
 				5281189626E4135A00ECA7F4 /* ContentView.swift in Sources */,
 				5281189426E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift in Sources */,
 			);

@@ -11,22 +11,26 @@ import CoreData
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
-    
+
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-    
+
     @State private var settingsView = false
     @State private var newUser = true
     @State var didDismiss = false
-    
+
     @State var theColorScheme: ColorScheme = .light
 
     func toggleColorScheme() {
         theColorScheme = (theColorScheme == .dark) ? .light : .dark
     }
-
+    
+    func toggleSettingsView() -> SettingsView {
+        guard settingsView == false else { return SettingsView() }
+        return SettingsView()
+    }
     
     var body: some View {
         NavigationView {
@@ -54,30 +58,25 @@ struct ContentView: View {
                 #if os(iOS)
                 EditButton()
                 #endif
-                
+
                 Button(action: addItem) {
                     Label("Add Item", systemImage: "plus")
                 }
             }
         }
-        
+
         .sheet(isPresented: $newUser) {
             VStack {
                 NewUserView()
                 Button("Dismiss",
                        action: { newUser.toggle() })
-                    
+
             }
         }
         .sheet(isPresented: $settingsView) {
-            VStack {
-                Button(action: self.toggleColorScheme) {
-                                Text("Toggle")
-                            }
-                Button("Dismiss",
-                       action: { settingsView.toggle() })
-                    
-            }
+            SettingsView()
+            Button("Dismiss",
+                   action: {settingsView.toggle() })
         }
         .colorScheme(theColorScheme)
     }
