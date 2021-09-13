@@ -39,7 +39,20 @@ struct ContentView: View {
                     Text("Item at \(item.timestamp!, formatter: itemFormatter)")
                 }
                 .onDelete(perform: deleteItems)
+                Button(action: addItem) {
+                    Label("Add Item", systemImage: "plus")
+                }
             }
+            
+//            Button(action: {
+//                settingsView.toggle()
+//            }) {
+//                Image(systemName: "gear")
+//                    .resizable()
+//                    .frame(width: 30, height: 30, alignment: .trailing)
+//            }
+
+            
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .accentColor(Color("accent"))
             .background(Color("accent"))
@@ -62,7 +75,9 @@ struct ContentView: View {
                 Button(action: addItem) {
                     Label("Add Item", systemImage: "plus")
                 }
+            
             }
+            
         }
 
         .sheet(isPresented: $newUser) {
