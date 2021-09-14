@@ -44,16 +44,10 @@ struct ContentView: View {
                 }
                 .onDelete(perform: deleteItems)
                 Button(action: addItem) {
-                    Label("Add Item", systemImage: "plus")
+                    Label("Add Item", systemImage: "plus").frame(maxHeight: .infinity, alignment: .bottom)
                 }
             }
-//            Button(action: {
-//                settingsView.toggle()
-//            }) {
-//                Image(systemName: "gear")
-//                    .resizable()
-//                    .frame(width: 30, height: 30, alignment: .trailing)
-//            }
+
 
             
             .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -70,16 +64,16 @@ struct ContentView: View {
                         .frame(width: 30, height: 30, alignment: .trailing)
                 })
             .navigationBarHidden(false)
-            .toolbar {
-                #if os(iOS)
-                EditButton()
-                #endif
-
-                Button(action: addItem) {
-                    Label("Add Item", systemImage: "plus")
-                }
-            
-            }
+//            .toolbar {
+//                #if os(iOS)
+//                EditButton()
+//                #endif
+//
+//                Button(action: addItem) {
+//                    Label("Add Item", systemImage: "plus")
+//                }
+//
+//            }
             
         }
 

@@ -17,6 +17,7 @@
 		528118AB26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528118AA26E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__Tests.swift */; };
 		528118B626E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528118B526E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift */; };
 		E349FB3426EADCEA00E4C54C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349FB3326EADCEA00E4C54C /* SettingsView.swift */; };
+		E349FB3626F0EB2300E4C54C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349FB3526F0EB2300E4C54C /* AppView.swift */; };
 		E38541FC26E4498100B04937 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38541FB26E4498100B04937 /* NewUserView.swift */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		528118B526E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MillionDollarApp_hopefully_maybe__UITests.swift; sourceTree = "<group>"; };
 		528118B726E4135B00ECA7F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E349FB3326EADCEA00E4C54C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		E349FB3526F0EB2300E4C54C /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		E38541FB26E4498100B04937 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				5281189326E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift */,
+				E349FB3526F0EB2300E4C54C /* AppView.swift */,
 				5281189526E4135A00ECA7F4 /* ContentView.swift */,
 				E38541FB26E4498100B04937 /* NewUserView.swift */,
 				E349FB3326EADCEA00E4C54C /* SettingsView.swift */,
@@ -280,6 +283,7 @@
 				528118A026E4135B00ECA7F4 /* MillionDollarApp_hopefully_maybe__.xcdatamodeld in Sources */,
 				5281189D26E4135B00ECA7F4 /* Persistence.swift in Sources */,
 				E38541FC26E4498100B04937 /* NewUserView.swift in Sources */,
+				E349FB3626F0EB2300E4C54C /* AppView.swift in Sources */,
 				E349FB3426EADCEA00E4C54C /* SettingsView.swift in Sources */,
 				5281189626E4135A00ECA7F4 /* ContentView.swift in Sources */,
 				5281189426E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift in Sources */,
