@@ -21,7 +21,7 @@ struct ContentView: View {
     @State private var newUser = true
     @State var didDismiss = false
 
-    @State var theColorScheme: ColorScheme = .light
+    @State var theColorScheme: ColorScheme = .dark
 
     func toggleColorScheme() {
         theColorScheme = (theColorScheme == .dark) ? .light : .dark
@@ -80,8 +80,8 @@ struct ContentView: View {
         .sheet(isPresented: $newUser) {
             VStack {
                 NewUserView()
-                Button("Dismiss",
-                       action: { newUser.toggle() })
+                Button("Finish",
+                       action: { newUser.toggle() }).accentColor(Color("accent"))
 
             }
         }

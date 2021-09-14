@@ -122,6 +122,7 @@ struct NewUserView: View {
                         .frame(maxHeight: 800)
                         .offset(y: 100)
                         .frame(width: 300, height: 300, alignment: .center)
+                        .accentColor(Color("accent"))
                 }
                 .navigationBarTitle("Welcome")
             }
