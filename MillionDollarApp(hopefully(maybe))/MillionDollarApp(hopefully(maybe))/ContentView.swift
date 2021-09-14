@@ -36,14 +36,17 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(items) { item in
-                    Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+                    Text("Post Title").foregroundColor(Color("accent")).bold().font(.title)
+                    RoundedRectangle(cornerRadius: 25, style: .continuous)
+                        .fill(Color.gray)
+                        .frame(width: 300, height: 400)
+                    Text("Posted on \(item.timestamp!, formatter: itemFormatter)").foregroundColor(Color("accent")).bold()
                 }
                 .onDelete(perform: deleteItems)
                 Button(action: addItem) {
                     Label("Add Item", systemImage: "plus")
                 }
             }
-            
 //            Button(action: {
 //                settingsView.toggle()
 //            }) {
@@ -95,7 +98,7 @@ struct ContentView: View {
         }
         .colorScheme(theColorScheme)
     }
-
+        
     private func addItem() {
         withAnimation {
             let newItem = Item(context: viewContext)
@@ -126,7 +129,9 @@ struct ContentView: View {
             }
         }
     }
+    
 }
+
 
 private let itemFormatter: DateFormatter = {
     let formatter = DateFormatter()

@@ -22,7 +22,7 @@ struct MillionDollarApp_hopefully_maybe__App: App {
                .foregroundColor: UIColor(named: "accent")!
            ]
            UINavigationBar.appearance().tintColor = UIColor(named: "accent")
-           UINavigationBar.appearance().barTintColor = UIColor(named: "accent")
+//           UINavigationBar.appearance().barTintColor = UIColor(named: "accent")
            UITabBar.appearance().backgroundImage = UIImage()
            UITabBar.appearance().isTranslucent = true
            UITabBar.appearance().backgroundColor = UIColor.clear
