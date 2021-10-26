@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MillionDollarApp(hopefully(maybe))' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MillionDollarApp(hopefully(maybe))
+
+  target 'MillionDollarApp(hopefully(maybe))Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MillionDollarApp(hopefully(maybe))UITests' do
+    # Pods for testing
+	pod 'Firebase/Core'
+	pod 'Firebase/Auth'
+	pod 'Firebase/Firestore'
+  end
+
+end
