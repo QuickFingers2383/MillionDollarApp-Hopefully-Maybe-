@@ -19,6 +19,7 @@
 		E349FB3426EADCEA00E4C54C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349FB3326EADCEA00E4C54C /* SettingsView.swift */; };
 		E349FB3626F0EB2300E4C54C /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349FB3526F0EB2300E4C54C /* AppView.swift */; };
 		E38541FC26E4498100B04937 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38541FB26E4498100B04937 /* NewUserView.swift */; };
+		E3BDF51E27282A0E0085D6BF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BDF51D27282A0E0085D6BF /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		E349FB3326EADCEA00E4C54C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		E349FB3526F0EB2300E4C54C /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		E38541FB26E4498100B04937 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
+		E3BDF51D27282A0E0085D6BF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				5281189526E4135A00ECA7F4 /* ContentView.swift */,
 				E38541FB26E4498100B04937 /* NewUserView.swift */,
 				E349FB3326EADCEA00E4C54C /* SettingsView.swift */,
+				E3BDF51D27282A0E0085D6BF /* LoginView.swift */,
 				5281189726E4135B00ECA7F4 /* Assets.xcassets */,
 				5281189C26E4135B00ECA7F4 /* Persistence.swift */,
 				528118A126E4135B00ECA7F4 /* Info.plist */,
@@ -286,6 +289,7 @@
 				E349FB3626F0EB2300E4C54C /* AppView.swift in Sources */,
 				E349FB3426EADCEA00E4C54C /* SettingsView.swift in Sources */,
 				5281189626E4135A00ECA7F4 /* ContentView.swift in Sources */,
+				E3BDF51E27282A0E0085D6BF /* LoginView.swift in Sources */,
 				5281189426E4135A00ECA7F4 /* MillionDollarApp_hopefully_maybe__App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
