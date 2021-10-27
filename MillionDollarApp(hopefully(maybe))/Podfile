@@ -6,6 +6,8 @@ target 'MillionDollarApp(hopefully(maybe))' do
   use_frameworks!
 
   # Pods for MillionDollarApp(hopefully(maybe))
+  pod ‘Firebase/Analytics’
+  pod ‘Firebase/Database’
 
   target 'MillionDollarApp(hopefully(maybe))Tests' do
     inherit! :search_paths

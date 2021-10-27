@@ -80,7 +80,7 @@
 		763F08BB3C2F9EC8BAB4CB0D /* Pods_MillionDollarApp_hopefully_maybe__Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionDollarApp_hopefully_maybe__Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8467E7A82CC77DA151ADAC7E /* Pods-MillionDollarApp(hopefully(maybe))-MillionDollarApp(hopefully(maybe))UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarApp(hopefully(maybe))-MillionDollarApp(hopefully(maybe))UITests.release.xcconfig"; path = "Target Support Files/Pods-MillionDollarApp(hopefully(maybe))-MillionDollarApp(hopefully(maybe))UITests/Pods-MillionDollarApp(hopefully(maybe))-MillionDollarApp(hopefully(maybe))UITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C4F9443D9709F82E2AAE7F5 /* Pods_MillionDollarApp_hopefully_maybe__.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionDollarApp_hopefully_maybe__.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9350879BE741B24266B01398 /* Pods_MillionDollarApp_hopefully_maybe___MillionDollarApp_hopefully_maybe__UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_MillionDollarApp_hopefully_maybe___MillionDollarApp_hopefully_maybe__UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9350879BE741B24266B01398 /* Pods_MillionDollarApp_hopefully_maybe___MillionDollarApp_hopefully_maybe__UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MillionDollarApp_hopefully_maybe___MillionDollarApp_hopefully_maybe__UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FB8BD7790BE68CBE4A1AD2 /* Pods-MillionDollarApp(hopefully(maybe)).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarApp(hopefully(maybe)).debug.xcconfig"; path = "Target Support Files/Pods-MillionDollarApp(hopefully(maybe))/Pods-MillionDollarApp(hopefully(maybe)).debug.xcconfig"; sourceTree = "<group>"; };
 		C5ABA52F9C21AD3D7B88FE3A /* Pods-MillionDollarApp(hopefully(maybe))-MillionDollarApp(hopefully(maybe))UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MillionDollarApp(hopefully(maybe))-MillionDollarApp(hopefully(maybe))UITests.debug.xcconfig"; path = "Target Support Files/Pods-MillionDollarApp(hopefully(maybe))-MillionDollarApp(hopefully(maybe))UITests/Pods-MillionDollarApp(hopefully(maybe))-MillionDollarApp(hopefully(maybe))UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E349FB3326EADCEA00E4C54C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
@@ -231,6 +231,7 @@
 				5281188D26E4135A00ECA7F4 /* Frameworks */,
 				5281188E26E4135A00ECA7F4 /* Resources */,
 				E3BDF5252728565A0085D6BF /* Embed Frameworks */,
+				825413EE81DC99AA3AB724CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,8 +312,6 @@
 				Base,
 			);
 			mainGroup = 5281188726E4135A00ECA7F4;
-			packageReferences = (
-			);
 			productRefGroup = 5281189126E4135A00ECA7F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -395,6 +394,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		825413EE81DC99AA3AB724CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MillionDollarApp(hopefully(maybe))/Pods-MillionDollarApp(hopefully(maybe))-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MillionDollarApp(hopefully(maybe))/Pods-MillionDollarApp(hopefully(maybe))-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MillionDollarApp(hopefully(maybe))/Pods-MillionDollarApp(hopefully(maybe))-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD84B4CDDA99D202FEB1F262 /* [CP] Embed Pods Frameworks */ = {
