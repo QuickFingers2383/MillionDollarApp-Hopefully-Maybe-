@@ -7,12 +7,14 @@
 
 import SwiftUI
 import Foundation
+import Firebase
 
 @main
 struct MillionDollarApp_hopefully_maybe__App: App {
     let persistenceController = PersistenceController.shared
     
     init() {
+           FirebaseApp.configure()
            UINavigationBar.appearance().backgroundColor = UIColor.clear
            UINavigationBar.appearance().isTranslucent = true
            UINavigationBar.appearance().titleTextAttributes = [
